@@ -52,7 +52,6 @@ If you're a developer and wish to explore or contribute to this project locally,
 For business inquiries or collaborations, please feel free to reach out via email:
 *   **Email:** [rosha.shikho@gmail.com](mailto:rosha.shikho@gmail.com)
 
----
 
-## License
-This project is licensed under the [Choose your license, e.g., MIT License] - see the LICENSE.md file for details.
+
+
