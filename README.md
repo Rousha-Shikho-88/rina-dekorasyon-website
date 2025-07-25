@@ -1,26 +1,58 @@
 # rina-dekorasyon Website
 
-This is the official website for rina-dekorasyon, specializing in [mention your field, e.g., interior decoration services and space design].
+Welcome to the official GitHub repository for **rina-dekorasyon**! This website serves as an online portfolio and information hub for our interior decoration and design services. We are dedicated to transforming spaces into beautiful and functional environments.
 
-**Visit the live website here:** [Rina-Dekorasyon Website](https://rina-ic-dekorasyon.com/)
+**Visit Our Live Website:** [Rina-Dekorasyon Official Website](https://rina-ic-dekorasyon.com/)
 
 ---
 
 ## About The Project
-[You can add more details here about the project, what it offers, and what technologies are used if you wish to mention them.]
+This repository hosts the source code for the rina-dekorasyon official website. The site showcases our completed projects, outlines our services (such as interior design, space planning, and custom furniture solutions), and provides contact information for potential clients.
+
+Our goal is to offer a seamless user experience, allowing visitors to easily explore our work and understand our unique approach to design.
+
+## Features
+*   **Project Portfolio:** A gallery of our completed interior design projects.
+*   **Services Overview:** Detailed information about the design and decoration services we offer.
+*   **Contact Information:** Easy ways for clients to get in touch for consultations or inquiries.
+*   **Responsive Design:** Optimized for viewing on various devices (desktops, tablets, and mobiles).
+
+## Technologies Used
+*   **React:** For building interactive user interfaces.
+*   **TypeScript:** For enhanced code quality and type safety.
+*   **Vite:** As a fast development build tool.
+*   **HTML5, CSS3, JavaScript:** Core web technologies.
+
+---
 
 ## How to Run Locally (For Developers)
-If you wish to run this project locally:
-1. Clone the repository: `git clone https://github.com/Rousha-Shikho-88/rina-dekorasyon-website.git`
-2. Navigate to the project directory: `cd rina-dekorasyon-website`
-3. [Mention any further steps, e.g., `npm install` if it's a React project, or simply: Open `index.html` in your browser if it's a plain HTML/CSS/JS project.]
+If you're a developer and wish to explore or contribute to this project locally, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Rousha-Shikho-88/rina-dekorasyon-website.git
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd rina-dekorasyon-website
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install  # or yarn install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm run dev  # or yarn dev
+    ```
+    This will typically open the website on `http://localhost:5173/` (or a similar address) in your browser.
 
 ---
 
 ## Contact
-[You can add contact methods here, e.g., an email address or social media links.]
+For business inquiries or collaborations, please feel free to reach out via email:
+*   **Email:** [rosha.shikho@gmail.com](mailto:rosha.shikho@gmail.com)
 
 ---
 
 ## License
-[Mention the type of license if your project is licensed.]
+This project is licensed under the [Choose your license, e.g., MIT License] - see the LICENSE.md file for details.
