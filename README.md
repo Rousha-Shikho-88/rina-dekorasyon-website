@@ -1,69 +1,57 @@
-# React + TypeScript + Vite
+# rina-dekorasyon Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official GitHub repository for **rina-dekorasyon**! This website serves as an online portfolio and information hub for our interior decoration and design services. We are dedicated to transforming spaces into beautiful and functional environments.
 
-Currently, two official plugins are available:
+**Visit Our Live Website:** [Rina-Dekorasyon Official Website](https://rina-ic-dekorasyon.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## About The Project
+This repository hosts the source code for the rina-dekorasyon official website. The site showcases our completed projects, outlines our services (such as interior design, space planning, and custom furniture solutions), and provides contact information for potential clients.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Our goal is to offer a seamless user experience, allowing visitors to easily explore our work and understand our unique approach to design.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
+*   **Project Portfolio:** A gallery of our completed interior design projects.
+*   **Services Overview:** Detailed information about the design and decoration services we offer.
+*   **Contact Information:** Easy ways for clients to get in touch for consultations or inquiries.
+*   **Responsive Design:** Optimized for viewing on various devices (desktops, tablets, and mobiles).
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Technologies Used
+*   **React:** For building interactive user interfaces.
+*   **TypeScript:** For enhanced code quality and type safety.
+*   **Vite:** As a fast development build tool.
+*   **HTML5, CSS3, JavaScript:** Core web technologies.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## How to Run Locally (For Developers)
+If you're a developer and wish to explore or contribute to this project locally, follow these steps:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Rousha-Shikho-88/rina-dekorasyon-website.git
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd rina-dekorasyon-website
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install  # or yarn install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm run dev  # or yarn dev
+    ```
+    This will typically open the website on `http://localhost:5173/` (or a similar address) in your browser.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Contact
+For business inquiries or collaborations, please feel free to reach out via email:
+*   **Email:** [rosha.shikho@gmail.com](mailto:rosha.shikho@gmail.com)
+
+
+
+
