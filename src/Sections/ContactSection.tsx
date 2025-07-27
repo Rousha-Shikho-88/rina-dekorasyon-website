@@ -49,7 +49,7 @@ function ContactSection() {
                             <div className="flex items-center space-x-3">
                                 <EnvelopeIcon className="h-6 w-6 text-gray-800" /> {/* أيقونة البريد الإلكتروني */}
                                 <p className="text-lg font-semibold text-gray-800">
-                                    <a href="mailto:marasyurtdernek@gmail.com" className="text-gray-800 hover:text-orange-500 transition-colors duration-200"> {/* غير لون الرابط إلى text-gray-800 */}
+                                    <a href="mailto:rinaicdekorasyon@gmail.com" className="text-gray-800 hover:text-orange-500 transition-colors duration-200"> {/* غير لون الرابط إلى text-gray-800 */}
                                         rinaicdekorasyon@gmail.com
                                     </a>
                                 </p>
